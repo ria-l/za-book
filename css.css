@@ -1,0 +1,47 @@
+* {
+    line-height: 1.6em;
+}
+
+.yellow, .green, .blue, .pink {
+    background: #FFDC74;
+	border-radius: 0.8em;
+	-moz-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	display: inline-block;
+	margin-right: 15px;
+	text-align: center;
+	width: 1.6em;
+}
+
+span.yellow {
+	background: #FFDC74;
+}
+
+img.grey {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+img {
+    width: 100px;
+}
+
+span.green {
+	background: #B3E561;
+}
+
+span.blue {
+	background: #b8fefd;
+}
+
+span.pink {
+	background: #fbcbf7;
+}
+
+td,
+tr,
+table {
+	border: solid 1px black;
+	padding: 3px;
+	margin: 10px;
+}
