@@ -1,27 +1,31 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="coin_glaceon.png" />
-    <style>
-      .grey {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-      }
-    </style>
-    <title>ブック</title>
-  </head>
-  <body>
-    <span id="bg-span"></span>
-
-    <main>
-      <div id="content-div" class="content-div">
-        <button onclick="workOrPlay()">work or play</button>
-        <div id="answer"></div>
-        <div id="coin"></div>
-      </div>
-    </main>
-    <script src="js.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="coin_glaceon.png" />
+        <link rel="stylesheet" href="css.css" />
+        <title>ブック</title>
+    </head>
+    <body>
+        <span id="bg-span"></span>
+        <main>
+            <div id="content-div" class="content-div">
+                <button onclick="workOrPlay()">work or play</button>
+                <div id="answer"></div>
+                <div id="count"></div>
+                <div id="coin"></div>
+                <div id="list">
+                    2025-03-24
+                    <ol>
+                        <li>
+                             <span class="blue">5</span>
+                            address remaining design doc comments
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+        <script src="js.js"></script>
+    </body>
 </html>
