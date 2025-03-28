@@ -1,0 +1,26 @@
+{
+  "name": "za-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ria-l/za-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ria-l/za-book/issues"
+  },
+  "homepage": "https://github.com/ria-l/za-book#readme",
+  "dependencies": {
+    "firebase": "^11.5.0"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.1.0"
+  }
+}
